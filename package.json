@@ -1,0 +1,22 @@
+{
+    "name": "cloudflarepages-cleaner",
+    "version": "1.0.0",
+    "description": "Clean up Cloudflare Pages projects with too many deployments that fail to delete via the dashboard.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "cloudflare",
+        "pages",
+        "cleaner",
+        "api",
+        "deployment"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.4.1"
+    }
+}
